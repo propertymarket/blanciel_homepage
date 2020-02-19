@@ -39,10 +39,6 @@ header p span {
     padding-left: 10px;
 }
 
-main {
-    width: 1440px;
-}
-
 main .container {
     width: 940px;
     height: 1615px;

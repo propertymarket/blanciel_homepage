@@ -84,7 +84,6 @@ td {
 }
 
 .about-us {
-    width: 1440px;
     height: 780px;
     text-align: center;
     background-color: #f3f6f8;
@@ -113,7 +112,6 @@ td {
 .service {
     background-image: url(../image/index/bg_service.jpg);
     background-size: cover;
-    width: 1440px;
     height: 750px;
     text-align: center;
     color: #004788;
@@ -129,7 +127,6 @@ td {
 }
 
 .voice {
-    width: 1440px;
     height: 644px;
     padding: 77px 0 100px;
     text-align: center;
@@ -143,20 +140,18 @@ td {
     margin-right: 20px
 }
 
-.burner {
-    width: 1440px;
+.bunner {
     height: 210px;
     background: #004788;
     padding: 60px 0;
     text-align: center;
 }
 
-.burner-img {
+.bunner-img {
     margin-right: 20px;
 }
 
 footer {
-    width: 1440px;
     height: 320.94px;
 }
 
@@ -169,7 +164,6 @@ footer {
 }
 
 .subnav {
-    width: 1440px;
     height: 40px;
     border: 1px #a8aeb5 solid;
 } 
@@ -178,7 +172,7 @@ footer {
     width: 940px;
     height: 38px;
     text-align: right;
-    margin: 0 240px;
+    margin: 0 auto;
 
 }
 
