@@ -1,0 +1,189 @@
+.brand-logo {
+    margin: 0.5em auto;
+    text-align: center;
+}
+
+
+ul {
+    list-style-type:none;
+}
+#nav {
+     margin: 0 auto;
+    text-align: center; 
+}
+
+#nav li {
+    display: inline-block;
+   
+}
+
+.header-img {
+    background-size: cover;
+    width: 100%;
+}
+
+header p {
+    margin:0 auto;
+    width: 940px;
+    font-size: 0.75em;
+    padding: 15px;
+    color: #004788;
+}
+
+header p a {
+    padding-right: 10px;
+    text-decoration: underline;
+}
+
+header p span {
+    padding-left: 10px;
+}
+
+main {
+    width: 1440px;
+}
+
+main .container {
+    width: 940px;
+    height: 1615px;
+    border-bottom: 1px rgb(224, 221, 221) solid;
+}
+
+main h1 {
+    margin: 20px auto 50px auto;
+    color: #004788;
+    text-align: center;
+}
+
+main li:before {
+    margin: 20px 0;
+    content: "▷";
+}
+
+.container ul {
+    padding: 0;
+}
+
+.container p {
+    margin: 35px 0;
+}
+
+main li {
+    margin: 20px 0;
+}
+
+.mind {
+    display: flex;
+}
+.mind img, .explain {
+    justify-content: center;
+}
+
+.mind img {
+    width: 455px;
+}
+
+.explain {
+    width: 455px;
+    height: 294px;
+    background-color: #f4f7f9;
+    padding: 50px 30px;
+}
+
+.passion {
+    display: flex;
+}
+.image {
+    position: relative;
+    width: 455px;
+}
+
+.passion .explain {
+    background-color: white;
+}
+
+
+.passion .number, .mind .number, .honest .number {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 90px;
+    height: 60px;
+}
+
+.passion img {
+    width: 455px;
+}
+
+.honest {
+    display: flex;
+    
+}
+
+.honest img, .explain {
+    justify-content: center;
+}
+
+.honest img {
+    width: 455px;
+    height: 294px;
+    
+}
+
+.recruit, .sales {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.title {
+    padding: 50px 0;
+}
+
+.title p {
+    letter-spacing: 0.3em;
+}
+
+.recruit h4 {
+    background-color: #2f84e5;
+    color: #fff;
+    padding: 0.3em;
+}
+
+.recruit p span {
+    font-weight: bold;
+}
+
+.recruit p {
+    font-size: 0.8em;
+}
+
+.recruit a {
+    text-decoration: underline;
+}
+
+.sales h5 {
+    border-left: 5px #2f84e5 solid;
+    padding-left: 0.5em;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.sales table {
+    border: 1px rgb(224, 221, 221) solid;
+}
+
+.sales table .column-title {
+    width:22%;
+    background-color: #f4f7f9;
+    vertical-align: middle;
+    padding-left: 30px;
+}
+
+.sales table td {
+    font-size: 13px;
+    line-height: 2;
+}
+
+.bold {
+    font-weight: bold;
+}
