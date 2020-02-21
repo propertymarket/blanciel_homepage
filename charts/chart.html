@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chart Practice</title>
+</head>
+<body>
+    <h1>Chart Example</h1>
+
+    <ol>
+        <h2><li>Basic line</li></h2>
+        <figure class='highcharts-figure'>
+        <div id='container'></div>
+        <p class='description'>
+            Basic line chartを使ってデータがみやすくなります。
+        </p>
+        </figure>
+
+
+        <h2><li>with data labels</li></h2>
+        <figure>
+            <div id='container2'></div>
+            <p>小さなデータの読みやすさと理解を高める</p>
+        </figure>
+
+        <h2><li>Stacked area</li></h2>
+        <figure>
+            <div id='container3'></div>
+            <p>全項目のデータの合計を出してくれる</p>
+        </figure>
+
+        <h2><li>Basic bar</li></h2>
+        <figure> 
+            <div id='basicbar'></div>
+            <p>体積を可視化</p>
+        </figure>
+        
+        <h2><li>Stacked bar</li></h2>
+        <figure> 
+            <div id='stackedbar'></div>
+            <p>データの合計を比べやすい</p>
+        </figure>
+
+        <h2><li>Stacked column chart</li></h2>
+        <figure> 
+            <div id='stackedColumn'></div>
+            <p>量を比べる為のチャート。データの合計を可視化しながら、個別のセクションも可視化する。</p>
+        </figure>
+
+        <h2><li>Pie chart</li></h2>
+        <figure> 
+            <div id='pieChart'></div>
+            <p>円グラフ</p>
+        </figure>
+
+        <h2><li>Scatter plot</li></h2>
+        <figure> 
+            <div id='scatterPlot'></div>
+            <p>２つのデータの繋がりを可視化するために使われる。このグラフでは、男性の平均体重と身長が女性のそれらより大きいことを明らかにしている。</p>
+        </figure>
+
+    </ol>
+
+    <h1>Chart Practice</h1>
+    <ol>
+        <h2><li>Basic line</li></h2>
+        <figure class='highcharts-figure'>
+        <div id='basicLine'></div>
+        <p class='description'>
+            バレンタイン期間における各社の売上推移
+        </p>
+        </figure>
+    </ol>
+
+    
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/series-label.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    
+    <script src='basicLine.js'></script>
+</body>
+</html>
